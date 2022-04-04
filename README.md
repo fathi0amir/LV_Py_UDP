@@ -13,8 +13,8 @@ communication. ActiveX and Python node VI were not fast enough for my
 application. Although UDP is a lossy protocol, it is still suitable for my application. 
 
 In this reporsitory I have uploaded 4 files. 
-LV_UDP_SNDR -> PY_UDP_RCVR
-PY_UDP_SNDR -> LV_UDP_RCVR
+- LV_UDP_SNDR -> PY_UDP_RCVR
+- PY_UDP_SNDR -> LV_UDP_RCVR
 
 For reciever on the python side I have modified an UDP socket options, 
 that limits the native buffer on the python side. This small project 
